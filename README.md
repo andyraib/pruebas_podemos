@@ -7,11 +7,12 @@ This is a test podemos IT
 * [Python Pip](https://pypi.python.org/pypi/pip)
 * [Virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
-### Virtualenv configuration 
+### Configuration 
 ```
 virtualenv -p python3.6 env
 source env/bin/activate
 pip install -r requirements.txt
+export PYTHONIOENCODING=utf-8
 ```
 
 ### EJECUTION 
