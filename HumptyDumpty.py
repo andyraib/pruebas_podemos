@@ -17,7 +17,7 @@ import sys
 # Multiplos de 3 == 'Humpty'
 # Multiplos de 5 == 'Dumpty'
 # Multiplos de 3 y 5 'HumptyDumpty'
-
+print("HUMPY DUMPTY")
 for i in range (1,100+1):
     if i%3 == 0 and i%5 == 0:
         print('HumptyDumpty: ', i)
@@ -34,6 +34,6 @@ for i in range (1,100+1):
 
 ## Suma de numeros naturales debajo del 1000
 # MUltiplos de 3 o 5 
-
+print("SUMA DE LOS MULTIMOS DEL 3 AL 5 MENORES A 1000")
 print(sum(int(v) for v in range(1,1000) if v%3 == 0 or v%5 == 0))
 
