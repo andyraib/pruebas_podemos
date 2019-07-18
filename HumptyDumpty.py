@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 #!/usr/bin/env python
@@ -10,7 +10,7 @@
 import sys
 
 
-# In[ ]:
+# In[2]:
 
 
 ## Programa del 1 al 100
@@ -29,32 +29,11 @@ for i in range (1,100+1):
         print(i)
 
 
-# In[1]:
+# In[3]:
 
 
 ## Suma de numeros naturales debajo del 1000
 # MUltiplos de 3 o 5 
 
 print(sum(int(v) for v in range(1,1000) if v%3 == 0 or v%5 == 0))
-
-
-# In[3]:
-
-
-## Dia del porgramador 
-# Año de la idea 2002
-# Fecha de inicio 11 de septiembre 2009
-# Dia 256 del año
-
-def main(args):
-    anio = args[1]
-    dia = args[2]
-    print(anio)
-    print(dia)
-
-
-# In[ ]:
-
-
-
 
