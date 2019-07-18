@@ -22,5 +22,5 @@ python HumptyDumpty.py
 ```
 
 ```
-python programer_day [year] <day>
+python programer_day.py [year] <day>
 ```
