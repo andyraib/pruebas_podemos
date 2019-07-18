@@ -1,4 +1,4 @@
-# pruebas_podemos
+# Pruebas podemos
 This is a test podemos IT
 
 ### Software needed
@@ -12,3 +12,14 @@ This is a test podemos IT
 virtualenv -p python3.6 env
 source env/bin/activate
 pip install -r requirements.txt
+```
+
+### EJECUTION 
+
+``` 
+python HumptyDumpty.py
+```
+
+```
+python programer_day [year] <day>
+```
